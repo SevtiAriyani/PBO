@@ -14,11 +14,11 @@ class Nilai {
 
 class NilaiView {
     render(rataRata) {
-        return Rata-rata nilai: ${rataRata};
+        return `Rata-rata nilai: ${rataRata}`;
     }
 
     renderError(error) {
-        return Error: ${error};
+        return `Error: ${error}`;
     }
 }
 
@@ -52,4 +52,4 @@ tampilkanRataRata([10, 20, 30]);  // Rata-rata yang valid
 tampilkanRataRata([]);             // Data kosong
 
 console.log(bagi(20, 2));           // Pembagian yang valid
-console.log(bagi(20, 0));           // Pembagian dengan nol
+console.log(bagi(20, 0));           // Pembagian dengan nol
