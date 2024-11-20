@@ -12,7 +12,6 @@
 
     <script>
         const pbo = {
-            // Model untuk database
             model: {
                 mahasiswa: [
                     { username: 'sevti', pin: 'sevti321' },
@@ -21,7 +20,6 @@
                 ],
             },
 
-            // View untuk tampilan
             view: {
                 signform: function () {
                     return `
@@ -44,13 +42,11 @@
                 },
             },
 
-            // Controller untuk perlakuan terhadap view dan database
             controller: {
                 init: function () {
                     const app = document.getElementById('app');
                     app.innerHTML = pbo.view.signform();
 
-                    // Event listener untuk tombol login dan cancel
                     document.getElementById('login').addEventListener('click', this.signin);
                     document.getElementById('cancel').addEventListener('click', this.signout);
                 },
@@ -59,7 +55,6 @@
                     const username = document.getElementById('username').value;
                     const pin = document.getElementById('pin').value;
 
-                    // Mencari user yang sesuai dengan username dan pin
                     const userFound = pbo.model.mahasiswa.find(
                         (user) => user.username === username && user.pin === pin
                     );
@@ -72,14 +67,12 @@
                 },
 
                 signout: function () {
-                    // Mengosongkan input setelah cancel
                     document.getElementById('username').value = '';
                     document.getElementById('pin').value = '';
                 },
             },
         };
 
-        // Inisialisasi program
         pbo.controller.init();
     </script>
 </body>
