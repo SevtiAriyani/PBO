@@ -1,7 +1,6 @@
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
+    background-color: #f8e1f4; /* Ganti dengan latar belakang pink muda */
     margin: 0;
     padding: 0;
     display: flex;
@@ -17,17 +16,19 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
     text-align: center;
+    border: 2px solid #f6c2e5; /* Border pink muda untuk frame */
 }
-
 
 input {
     width: 90%;
     max-width: 90%;
     padding: 10px;
     margin: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid #f6c2e5; /* Border pink muda */
     border-radius: 4px;
     font-size: 14px;
+    background-color: #ffe6f1; /* Warna latar belakang input pink muda */
+    color: #8a3c91; /* Warna teks input pink tua */
 }
 
 button {
@@ -38,20 +39,20 @@ button {
     border-radius: 4px;
     font-size: 14px;
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: #ff66b2; /* Warna tombol pink cerah */
     color: white;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #ff3385; /* Warna saat hover lebih gelap */
     transform: translateY(-3px);
 }
 
 button#cancel {
-    background-color: #6c757d;
+    background-color: #f1b6d3; /* Warna tombol cancel lebih soft pink */
 }
 
 button#cancel:hover {
-    background-color: #5a6268;
+    background-color: #e296b6; /* Warna hover untuk cancel */
 }
