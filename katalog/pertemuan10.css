@@ -134,18 +134,16 @@ button#logout:hover {
     transform: translateY(-2px);
 }
 
-/* Styles for the logout button (make it smaller) */
 .catalog button#logout {
-    background-color: #dc3545;  /* Red background */
-    padding: 5px 10px;  /* Smaller padding */
-    font-size: 12px;  /* Smaller font size */
-    width: auto;  /* Auto width to fit the content */
-    margin-top: 20px;  /* Space above the button */
-    border-radius: 4px;  /* Rounded corners */
+    background-color: #dc3545 !important;  /* Red background */
+    padding: 5px 10px !important;  /* Smaller padding */
+    font-size: 12px !important;  /* Smaller font size */
+    width: auto !important;  /* Auto width to fit the content */
+    margin-top: 20px !important;  /* Space above the button */
 }
 
 .catalog button#logout:hover {
-    background-color: #c82333;  /* Darker red on hover */
-    transform: translateY(-2px);  /* Slightly raise button on hover */
+    background-color: #c82333 !important;  /* Darker red on hover */
+    transform: translateY(-2px) !important;  /* Slightly raise button on hover */
 }
 
