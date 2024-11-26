@@ -133,3 +133,19 @@ button#logout:hover {
     background-color: #c82333;  /* Darker red on hover */
     transform: translateY(-2px);
 }
+
+/* Styles for the logout button (make it smaller) */
+.catalog button#logout {
+    background-color: #dc3545;  /* Red background */
+    padding: 5px 10px;  /* Smaller padding */
+    font-size: 12px;  /* Smaller font size */
+    width: auto;  /* Auto width to fit the content */
+    margin-top: 20px;  /* Space above the button */
+    border-radius: 4px;  /* Rounded corners */
+}
+
+.catalog button#logout:hover {
+    background-color: #c82333;  /* Darker red on hover */
+    transform: translateY(-2px);  /* Slightly raise button on hover */
+}
+
