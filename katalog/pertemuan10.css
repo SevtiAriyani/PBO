@@ -124,8 +124,12 @@ button#batal:hover {
 /* Logout button styling */
 button#logout {
     background-color: #dc3545;  /* Red background */
+    padding: 5px 10px;  /* Smaller padding */
+    font-size: 12px;  /* Smaller font size */
+    width: auto;  /* Auto width to fit the content */
 }
 
 button#logout:hover {
     background-color: #c82333;  /* Darker red on hover */
+    transform: translateY(-2px);
 }
